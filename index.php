@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="">
         <meta name="author" content="">
-        <title>WSI Outdoor South Central USA</title>
+        <title>Figure 8 Sales</title>
         <!-- Bootstrap Core CSS -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <!-- Custom CSS -->
@@ -37,7 +37,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">WSI Outdoor</a>
+                    <a class="navbar-brand" href="#">Figure 8 Sales</a>
                 </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -130,7 +130,7 @@
                                         <img src="img/reefgray.png">
                                     </a>
                                 </div>
-                                
+
                             </div>
                             <div class="row">
                                 <div class="col-xs-12 col-md-4 col-md-offset-4">
@@ -138,11 +138,11 @@
                                         <img src="img/outdoortechgray.png">
                                     </a>
                                 </div>
-                                
+
                             </div>
-                            
-                            
-                            
+
+
+
                         </div>
                         <!-- /.container -->
                     </div>
@@ -215,7 +215,7 @@
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <!--END ROW 1 -->
                             <!--ROW 2 -->
                             <div class="row">
@@ -262,7 +262,7 @@
                                 </div>
                             </div>
                             <!--END ROW 2 -->
-                            
+
                         </div>
                     </div>
                     <!-- /.container -->
