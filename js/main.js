@@ -20,3 +20,14 @@ $('a[href^="#"]').on('click', function(event) {
 	scrolltoDiv(url,1000,50)
 
 });
+
+var a = $("#my_navbar").offset().top;
+
+$(document).scroll(function(){
+    if($(this).scrollTop() > a)
+    {   
+       $('#my_navbar').css({"background":"#4e4e4e"});
+    } else {
+       $('#my_navbar').css({"background":"transparent"});
+    }
+});
