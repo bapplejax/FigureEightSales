@@ -81,3 +81,9 @@ div.download_box.col-lg-9.col-centered > a > div > p {
 iframe, object, embed {
         max-width: 100%;
 }
+
+#my_navbar {
+    background-color: #4e4e4e;
+    border: none;
+    border-radius: 0;
+}
