@@ -3,7 +3,7 @@ h3.h5bp {
     font: 0/0 a;
     text-shadow: none;
     color: transparent;
-    background: url(img/WSI-LOGOtrans.png);
+    background: url(img/f8bg.jpg);
     width: 100%;
     height: auto;
 }
@@ -61,7 +61,7 @@ div.img-div img {
 }
 
 .intro-header {
-    background-image: url(img/f8bg.jpg);
+    background-image: url(http://i.imgur.com/DVG5HYf.jpg);
 }
 
 .carousel-inner > .item > img {
