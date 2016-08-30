@@ -183,4 +183,25 @@ footer {
     max-height: 28px;
 }
 
+#my_mobile_navbar {
+    background-color: #4e4e4e;
+    border-bottom: none;
+}
+
+#my_mobile_navbar a {
+    color: #dcdcdc;
+}
+
+#my_mobile_navbar a:hover {
+    color: white;
+}
+
+#my_mobile_toggle {
+    padding: 2px 10px;
+}
+
+#my_mobile_toggle img {
+    max-height: 28px;
+}
+
 >>>>>>> Stashed changes

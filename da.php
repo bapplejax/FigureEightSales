@@ -1,13 +1,14 @@
 <?php include("/home/windomsalesinc/public_html/password_protect.php"); ?>
-<!DOCTYPE html>
-<html lang="en">
+    <!DOCTYPE html>
+    <html lang="en">
+
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="">
         <meta name="author" content="">
-        <title>WSI Outdoor South Central USA</title>
+        <title>Figure Eight Sales - Dealer Access</title>
         <!-- Bootstrap Core CSS -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <!-- Custom CSS -->
@@ -17,8 +18,8 @@
         <!-- Custom Fonts -->
         <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
         <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-        <link rel="shortcut icon" href="img/wsilogo_favicon.ico" type="image/x-icon">
-        <link rel="icon" href="img/wsilogo_favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="img/favicon.ico" type="image/x-icon">
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
@@ -26,40 +27,68 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
     </head>
+
     <body id="contact-page">
+
         <!-- Navigation -->
-        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <nav id="my_navbar" class="hidden-xs navbar navbar-default navbar-fixed-top" role="navigation">
             <div class="container">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+                    <a class="navbar-brand" href="http://www.figure8sales.com">Figure 8 Sales</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#brands">Our Brands</a>
+                        </li>
+                        <li>
+                            <a href="#team">About</a>
+                        </li>
+                        <li>
+                            <a href="http://www.figure8sales.com/contact.php">Contact</a>
+                        </li>
+                        <li>
+                            <a href="http://www.figure8sales.com/da.php">Dealer Access</a>
+                        </li>
+                        <li>
+                            <a href="http://www.figure8sales.com/da.php?logout=1">Logout</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container -->
+        </nav>
+        <!-- Navigation On Mobile-->
+        <nav id="my_mobile_navbar" class="visible-xs navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button id="my_toggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <img src="img/swIcon.png" />
                     </button>
-                    <a class="navbar-brand" href="http://www.wsioutdoor.com">WSI Outdoor</a>
+                    <a class="navbar-brand" href="#">Figure 8 Sales</a>
                 </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
                         <li>
-                            <a href="http://www.wsioutdoor.com/index.php#brands">Our Brands</a>
+                            <a href="#brands">Our Brands</a>
                         </li>
                         <li>
-                            <a href="http://www.wsioutdoor.com/index.php#team">Our Team</a>
+                            <a href="#team">About</a>
                         </li>
                         <li>
-                            <a href="http://www.wsioutdoor.com/index.php#showroom">Our Showroom</a>
+                            <a href="http://www.figure8sales.com/contact.php">Contact</a>
                         </li>
                         <li>
-                            <a href="http://www.wsioutdoor.com/da.php">Dealer Access</a>
+                            <a href="http://www.figure8sales.com/da.php">Dealer Access</a>
                         </li>
                         <li>
-                            <a href="http://www.wsioutdoor.com/contact.php">Contact</a>
-                        </li>
-                        <li>
-                            <a href="http://www.wsioutdoor.com/da.php?logout=1">Logout</a>
+                            <a href="http://www.figure8sales.com/da.php?logout=1">Logout</a>
                         </li>
                     </ul>
                 </div>
@@ -74,12 +103,12 @@
                     <div class="col-lg-12">
                         <div class="container contact">
                             <div class="row">
-                                
+
                                 <div class="col-sm-8 changeopacity">
                                     <div class="container">
                                         <h1>Click the Brand for Dealer Page</h1>
                                         <div class="row">
-                                            
+
                                             <div class="col-xs-6 col-md-3">
                                                 <a href="arcteryx.php" class="thumbnail">
                                                     <img src="img/arcgray.png">
@@ -90,7 +119,7 @@
                                                     <img src="img/smithgray.png" class="smith">
                                                 </a>
                                             </div>
-                                            
+
                                             <div class="col-xs-6 col-md-3">
                                                 <a href="atomicsalomon.php" class="thumbnail">
                                                     <img src="img/atomicgray.png">
@@ -113,7 +142,7 @@
                                                     <img src="img/hotchillysgray.png">
                                                 </a>
                                             </div>
-                                            
+
                                             <div class="col-xs-6 col-md-3">
                                                 <a href="og.php" class="thumbnail">
                                                     <img src="img/outdoorgeargray.png">
@@ -124,15 +153,15 @@
                                                     <img src="img/outdoortechgray.png">
                                                 </a>
                                             </div>
-                                            
+
                                         </div>
-                                        
-                                        
-                                        
+
+
+
                                     </div>
                                 </div>
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -175,4 +204,5 @@
         <script src="js/bootstrap.min.js"></script>
         <script src="js/main.js"></script>
     </body>
-</html>
+
+    </html>
