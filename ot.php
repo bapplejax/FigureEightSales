@@ -100,7 +100,7 @@
                         <h4><a  style="margin-top: 0;" href="mailto:service.delta@arcteryx.com" data-rel="external">rep.email@us.leki.com</a></h4>
                         <h4><a  style="margin-top: 0;" href="tel:18002559982" data-rel="external">+1 (800) 255-9982</a></h4>
                         <div class="btn-group" role="group" aria-label="...">
-                            <a href="https://www.dropbox.com/sh/6v0mcz1jqv6xcfa/AADItYorYunBids93YHzxWpVa?dl=0" class="btn btn-lg btn-default">Dealer Documents</button></a>
+                            <a href="https://www.dropbox.com/sh/ghmb5ebah5nsxjf/AADM1Jz83kqj2CeZHY7d0IZba?dl=0" class="btn btn-lg btn-default">Dealer Documents</button></a>
                         </div>
                         <br>
                         <br>
